@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title> Catalogue Page</title>
+        <script src="myscript.js"></script>
+    </head>
+    <body>
+        <br/><br/><br/>
+        <center>
+            <form name="f1" action="Catalogue.php" method="post" onsubmit="javascript:return validate()">
+            <table border="3" cellpadding="0" cellspacing="0">
+                <tr>
+                <td>
+                <table cellspacing="5">
+                <tr>
+                <td colspan="2" align="center"><h2><u>Book Details Entry Form</u></h2></td>
+                </tr>
+                <tr>
+                    <td> Book Name</td>
+                    <td><input type="text" name="bname" size="50"></td>
+                 </tr>
+                 <tr>
+                    <td> Author</td>
+                    <td><input type="text" name="auth" size="50"></td>
+                 </tr>
+                 <tr>
+                    <td> Publication</td>
+                    <td><input type="text" name="publ" size="50"></td>
+                 </tr>
+                 <tr>
+                    <td> ISBN</td>
+                    <td><input type="text" name="isbn" size="15"></td>
+                </tr>
+                <tr>
+                    <td> Edition</td>
+                    <td><input type="text" name="edi" size="15"></td>
+                </tr>
+                <tr>
+                    <td> Cost</td>
+                    <td>$<input type="text" name="cost" size="5"></td>
+                </tr>
+                <tr>
+                    <td> Quantity</td>
+                    <td><input type="text" name="qty" size="3"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><input type="submit" value="submit"></td>
+                </tr>
+            </table>
+        </form>
+        </center>
+    </body>
+</html>
